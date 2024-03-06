@@ -1891,7 +1891,6 @@ let deploy = function (params) {
                         --cwd ./ \
                         ${distIdArg} \
                         --etag \
-                        --gzip xml,html,htm,js,css,ttf,otf,svg,txt \
                         ${cacheFlag} \
                         ${invalidationArg} \
                         ${deleteRemovedArg} \
